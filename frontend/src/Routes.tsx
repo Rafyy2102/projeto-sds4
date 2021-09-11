@@ -15,9 +15,7 @@ const Routes = () => {
                     </Route>
                 </Switch>
            
-           </BrowserRouter>
-     
+           </BrowserRouter>     
     );
 }
-
 export default Routes;
