@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Chart from 'react-apexcharts';
 import { BASE_URL } from 'utils/requests';
-import { SaleSum } from 'utils/types/sale';
+import { SaleSum } from 'types/sale';
 
 type ChartData = {
     labels: string[];
@@ -25,11 +25,6 @@ const DonutChart = () => {
             });
 
     }, []);
-
-
-
-
-
 
     /* const mockData = {
          series: [477138, 499928, 444867, 220426, 473088],
