@@ -30,7 +30,7 @@ const DataTable = () => {
             <Pagination page={page}  onPageChange={changePage}/>
 
             <div className="table-responsive">
-                <table className="table table-striped table-sm">
+                <table className="table table-striped table-sm 15px bold">
                     <thead>
                         <tr>
                             <th>Data</th>
