@@ -7,9 +7,14 @@
 html, body {
     height: 100%;
     font-family: "Ubuntu", sans-serif, Arial;
-    font-size: 20px bold;
+    
     background: url("../img/fundo.png") ;
     background-size: cover;
+}
+
+div{
+    font-size: 20px bold;
+    
 }
 
 #root {
