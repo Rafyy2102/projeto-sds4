@@ -12,6 +12,11 @@ html, body {
     background-size: cover;
 }
 
+table{
+    font-family: "Ubuntu", sans-serif, Arial, Helvetica;
+    font-size: 35px large bold;
+}
+
 #root {
     display: flex;
     flex-direction: column;
